@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Samantha",
+    "age": 28,
+    "location": "Newcastle, UK",
+    "university": "Newcastle University",
+    "major": "Psychology",
+    "hobbies": ["Hiking", "Photography", "Cooking"],
+    "interests": ["Traveling", "Art", "Technology"],
+    "description": "Adventurous spirit with a love for the outdoors and a passion for capturing moments through photography.",
+    "image": "/images/Landscape1.jpeg",
+    "prompts": [
+      {
+        "question": "Let's make sure we're on the same page about...",
+        "answer": "Pineapple on pizza — I’m all for it 🍍🍕"
+      },
+      {
+        "question": "My most irrational fear is...",
+        "answer": "Getting stuck in an elevator with a mime."
+      },
+      {
+        "question": "Typical Sunday?",
+        "answer": "Brunch, farmers market, then binge-watching true crime."
+      }
+    ]
+  },
+  {
+    "name": "Liam",
+    "age": 30,
+    "location": "Manchester, UK",
+    "university": "University of Manchester",
+    "major": "Computer Science",
+    "hobbies": ["Gaming", "Cycling", "Coffee Brewing"],
+    "interests": ["Startups", "AI", "Podcasts"],
+    "description": "Tech enthusiast who loves to bike through the city and spend weekends perfecting the perfect brew.",
+    "image": "/images/Landscape2.jpeg",
+    "prompts": [
+      {
+        "question": "The award I should be nominated for...",
+        "answer": "Best latte art in a shared kitchen ☕"
+      },
+      {
+        "question": "A fact about me that surprises people...",
+        "answer": "I once rode 100 miles in one day just to get coffee in Wales."
+      },
+      {
+        "question": "My love language is...",
+        "answer": "Acts of service and freshly baked banana bread."
+      }
+    ]
+  },
+  {
+    "name": "Aisha",
+    "age": 26,
+    "location": "London, UK",
+    "university": "King’s College London",
+    "major": "Law",
+    "hobbies": ["Writing", "Boxing", "Board Games"],
+    "interests": ["Politics", "Theatre", "Travel"],
+    "description": "Driven and curious, I love meaningful conversations, debating ideas, and trying escape rooms.",
+    "image": "/images/Landscape3.jpeg",
+    "prompts": [
+      {
+        "question": "I geek out on...",
+        "answer": "Supreme Court rulings and true crime documentaries."
+      },
+      {
+        "question": "Pet peeve?",
+        "answer": "When people don’t use turn signals 😤"
+      },
+      {
+        "question": "I’m known for...",
+        "answer": "Dominating trivia nights and my spicy ramen."
+      }
+    ]
+  },
+  {
+    "name": "James",
+    "age": 31,
+    "location": "Leeds, UK",
+    "university": "University of Leeds",
+    "major": "Architecture",
+    "hobbies": ["Sketching", "Salsa Dancing", "Camping"],
+    "interests": ["Design", "Nature", "Live Music"],
+    "description": "Architect by day, dancer by night. Always up for a road trip or rooftop concert.",
+    "image": "/images/Landscape4.jpeg",
+    "prompts": [
+      {
+        "question": "Two truths and a lie...",
+        "answer": "I’ve met a royal, I can juggle, I hate cheese."
+      },
+      {
+        "question": "The way to win me over is...",
+        "answer": "Dance like no one’s watching — preferably to Latin beats."
+      },
+      {
+        "question": "I’m overly competitive about...",
+        "answer": "Board games. Especially Catan."
+      }
+    ]
+  },
+  {
+    "name": "Emily",
+    "age": 25,
+    "location": "Bristol, UK",
+    "university": "University of Bristol",
+    "major": "Environmental Science",
+    "hobbies": ["Gardening", "Yoga", "Thrifting"],
+    "interests": ["Sustainability", "Vegan Cooking", "Poetry"],
+    "description": "Nature lover with a soft spot for vintage books and composting. Let’s swap plant tips 🌱",
+    "image": "/images/Landscape5.jpeg",
+    "prompts": [
+      {
+        "question": "Dating me is like...",
+        "answer": "A cozy walk through a botanical garden with a thermos of herbal tea."
+      },
+      {
+        "question": "The hallmark of a good relationship is...",
+        "answer": "Mutual respect, open communication, and plant babies."
+      },
+      {
+        "question": "You should leave a comment if...",
+        "answer": "You also talk to your plants."
+      }
+    ]
+  }
+]

@@ -5,7 +5,7 @@
 // import Experience from '../Experience/Experience';
 
 import React, { useState, useEffect } from 'react';
-import './DatingApp.scss';
+// import './DatingApp.scss';
 
 const Home = () => {
   const [profiles, setProfiles] = useState([]);

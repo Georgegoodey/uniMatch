@@ -1,0 +1,47 @@
+@import '../../scss/variables';
+
+.profile-container {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 3rem;
+
+  .card {
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: $light;
+    color: $color-accent-1;
+
+    .card-img-top {
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 1.5rem;
+
+      .btn {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+      }
+
+      .prompt {
+        margin-bottom: 1.25rem;
+
+        .prompt-question {
+          font-weight: 600;
+        }
+
+        .prompt-answer {
+          color: $color-accent-1;
+        }
+      }
+
+      .tags {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        color: $color-accent-1;
+      }
+    }
+  }
+}

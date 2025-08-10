@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Alice Smith",
+    "age": 25,
+    "university": "University of Manchester",
+    "degree": "BSc Computer Science",
+    "description": "Love adventures and coding. Always up for a hiking trip or a good book.",
+    "photos": [
+      "https://randomuser.me/api/portraits/women/65.jpg",
+      "https://randomuser.me/api/portraits/women/66.jpg"
+    ],
+    "hobbies": ["Hiking", "Cooking", "Reading"],
+    "interests": ["Music", "Travel", "Technology"],
+    "prompts": [
+      { "question": "I'm most proud of...", "answer": "Completing my first marathon." },
+      { "question": "My ideal weekend includes...", "answer": "Beach, books, and good company." }
+    ]
+  },
+  {
+    "name": "James Whitcher",
+    "age": 29,
+    "university": "Newcastle University",
+    "degree": "MEng Electrical Engineering",
+    "description": "Passionate about technology, travel, and meeting new people. I enjoy hiking, photography, and exploring hidden coffee shops.",
+    "photos": [
+      "https://randomuser.me/api/portraits/men/32.jpg",
+      "https://randomuser.me/api/portraits/men/33.jpg",
+      "https://randomuser.me/api/portraits/men/34.jpg"
+    ],
+    "hobbies": ["Photography", "Hiking", "Jazz Music"],
+    "interests": ["Travel", "Food", "Tech"],
+    "prompts": [
+      { "question": "The one thing I can't live without...", "answer": "My camera." },
+      { "question": "I'll fall for you if...", "answer": "You love adventure as much as I do." }
+    ]
+  },
+  {
+    "name": "Sara Tan",
+    "age": 23,
+    "university": "University of Edinburgh",
+    "degree": "BA Psychology",
+    "description": "Coffee lover, dog mom, and psychology nerd. Looking for someone to share deep conversations and laughter with.",
+    "photos": [
+      "https://randomuser.me/api/portraits/women/21.jpg",
+      "https://randomuser.me/api/portraits/women/22.jpg"
+    ],
+    "hobbies": ["Coffee Tasting", "Reading", "Yoga"],
+    "interests": ["Psychology", "Art", "Travel"],
+    "prompts": [
+      { "question": "My perfect Sunday...", "answer": "Yoga in the morning, then brunch with friends." },
+      { "question": "A fact about me that surprises people...", "answer": "I’ve lived in 4 different countries." }
+    ]
+  },
+  {
+    "name": "David Lee",
+    "age": 31,
+    "university": "University of Cambridge",
+    "degree": "PhD Physics",
+    "description": "Scientist by day, amateur chef by night. I enjoy puzzles, hiking, and classic movies.",
+    "photos": [
+      "https://randomuser.me/api/portraits/men/45.jpg"
+    ],
+    "hobbies": ["Cooking", "Hiking", "Puzzles"],
+    "interests": ["Science", "Movies", "Technology"],
+    "prompts": [
+      { "question": "The dorkiest thing about me is...", "answer": "I own more science books than novels." },
+      { "question": "My greatest strength...", "answer": "Curiosity." }
+    ]
+  },
+  {
+    "name": "Emma Clarke",
+    "age": 27,
+    "university": "University of Bristol",
+    "degree": "MA English Literature",
+    "description": "Avid reader and theatre enthusiast. Always looking for a good story and good company.",
+    "photos": [
+      "https://randomuser.me/api/portraits/women/10.jpg",
+      "https://randomuser.me/api/portraits/women/11.jpg",
+      "https://randomuser.me/api/portraits/women/12.jpg"
+    ],
+    "hobbies": ["Reading", "Theatre", "Writing"],
+    "interests": ["Literature", "Travel", "History"],
+    "prompts": [
+      { "question": "If I could travel anywhere...", "answer": "I’d go to Japan during cherry blossom season." },
+      { "question": "My guilty pleasure...", "answer": "Binge-watching period dramas." }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  { "value": "hiking", "label": "Hiking", "icon": "🥾" },
+  { "value": "photography", "label": "Photography", "icon": "📸" },
+  { "value": "cooking", "label": "Cooking", "icon": "🍳" },
+  { "value": "traveling", "label": "Traveling", "icon": "✈️" },
+  { "value": "reading", "label": "Reading", "icon": "📚" },
+  { "value": "music", "label": "Music", "icon": "🎵" },
+  { "value": "gaming", "label": "Gaming", "icon": "🎮" },
+  { "value": "yoga", "label": "Yoga", "icon": "🧘‍♂️" },
+  { "value": "dancing", "label": "Dancing", "icon": "💃" },
+  { "value": "sports", "label": "Sports", "icon": "⚽" },
+  { "value": "art", "label": "Art", "icon": "🎨" }
+]

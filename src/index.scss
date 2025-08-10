@@ -1,0 +1,27 @@
+@use "sass:map";
+
+@import 'scss/variables';
+@import 'scss/custom.scss';
+@import '~bootstrap/scss/bootstrap';
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(30, 45, 45);// map.get($theme-colors, "dark");
+  background-image: url("./assets/tile.png");
+  background-size: 175px;
+	// font-family: $font-default;
+
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.blur {
+		overflow: hidden;
+	}
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

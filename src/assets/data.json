@@ -1,0 +1,125 @@
+[
+    {
+        "title": "BTIG Internship",
+        "category": "Experience",
+        "date": "24/06/2024 - 30/08/2024",
+        "summary": "A summer internship at BTIG London focusing on data driven web development",
+        "description": "In the summer of 2024, I completed an internship with BTIG. This mainly involved creating a web interface using the Blazor C# web framework. Other skills used include SQL, Bootstrap, Javascript. Some smaller tasks were completed to a high standard using Python and Excel, including use of the Bloomberg API and terminal.",
+        "skills": [
+            "C#",
+            "APIs",
+            "SQL",
+            ".NET",
+            "Blazor",
+            "Bootstrap",
+            "Javascript",
+            "Python",
+            "Tkinter",
+            "Numpy",
+            "Matplotlib",
+            "Excel",
+            "Bloomberg Terminal",
+            "Bloomberg API"
+        ]
+    },
+    {
+        "title": "Ant Colony Optimisation",
+        "category": "Projects",
+        "date": "08/2023 - 06/2024",
+        "summary": "A project on the ACO principle using simulations and graph theory",
+        "description": "My third year project focused on the topic of ant colony optimisation. I produced a cohesive program that demonstrated the principles of the ACO algorithm in both a graph theoretic solver environment as well as a simulated experiment",
+        "skills": [
+            "Python",
+            "Numpy",
+            "Tkinter",
+            "Graph Theory",
+            "Optimisation Algorithms"
+        ]
+    },
+    {
+        "title": "Hackchester Society Website",
+        "category": "Projects",
+        "date": "09/2022 - 06/2024",
+        "summary": "A full-stack site for providing workshop content to society members with secure uploads",
+        "description": "An interactive website for the cybersecurity society at Manchester. It allows members to view upcoming events and browse and download society resources. The front-end was built in React by my team and me. The back end was built by me using Java Spring boot with MongoDB for the database and hosted on AWS.",
+        "skills": [
+            "React",
+            "Javascript",
+            "APIs",
+            "Java",
+            "Springboot",
+            "AWS"
+        ]
+    },
+    {
+        "title": "Eventlite: Event based site, developed as an Eventlife Clone",
+        "category": "Projects",
+        "summary": "A from scratch clone of the eventlife site. Built in Java to serve HTML content with MVC architecture and an API endpoint for data access",
+        "skills": [
+            "Java",
+            "Springboot",
+            "SQL",
+            "MVC",
+            "APIs"
+        ]
+    },
+    {
+        "title": "Hex Game Theory Bot",
+        "category": "Projects",
+        "summary": "A bot for the board game Hex, created in Python",
+        "description": "It used a modified minimmax algorithm with a specialised heuristic function. Monte Carlo and Neural Network techniques were also considered in the design process",
+        "skills": [
+            "Python",
+            "Game Theory"
+        ]
+    },
+    {
+        "title": "FooBar nightlife website",
+        "category": "Projects",
+        "summary": "A site designed to group together reviews for meeting spots and making plans",
+        "skills": [
+            "Javascript",
+            "CSS",
+            "PHP",
+            "APIs"
+        ]
+    },
+    {
+        "title": "Eventyr Videogame",
+        "category": "Projects",
+        "summary": "My A Level Project was a game built using Java and OpenGL without any game engine. This had functioning inventory, quest and dialog systems to enable RPG gameplay. It also utlised custom drawn assets",
+        "skills": [
+            "Java",
+            "OpenGL",
+            "3D rendering"
+        ]
+    },
+    {
+        "title": "Manchester University",
+        "category": "Education",
+        "summary": "MEng Artificial Intelligence 2024-2025",
+        "skills": [],
+        "grades": "Predicted 1st Class Grade",
+        "classes": []
+    },
+    {
+        "title": "Manchester University",
+        "category": "Education",
+        "summary": "BSC Artificial Intelligence 2021-2024",
+        "skills": [],
+        "grades": "1st Class Grade",
+        "classes": []
+    },
+    {
+        "title": "Hinchley Wood School",
+        "category": "Education",
+        "summary": "A levels in Maths, Computer Science and Further Maths",
+        "skills": [],
+        "grades": "A* A* A",
+        "classes": [
+            {"name":"Maths", "grade": "A*"}, 
+            {"name":"Futher Maths", "grade":"A"}, 
+            {"name":"Computer Science", "grade":"A*"}
+        ]
+    }
+]

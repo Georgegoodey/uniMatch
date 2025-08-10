@@ -1,0 +1,20 @@
+$theme-colors: (
+  'primary': #17b4b1,
+  'secondary': #084746,
+  'blue': #084948,
+  'blueAccent': #12A5A3,
+  'purple': #270D31,
+  'purpleAccent': #732791,
+  'grey': #253B41,
+  'greyAccent': #70A0AF,
+  'orange': #F26419,
+  'light': rgb(249, 247, 241),
+  'dark': #212121
+);
+
+$position-values: (
+  15: 15%,  
+  25: 25%
+);
+
+@import '~bootstrap/scss/bootstrap';

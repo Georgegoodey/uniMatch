@@ -1,0 +1,232 @@
+@import '../../scss/variables';
+
+.Home{
+    // margin: 2% 3%;
+    // padding-top: 61px;
+
+    ul{
+        list-style-type: none;
+        // margin: 0 3%;
+        padding: 0;
+      }
+}
+
+.nav-link {
+  position:relative;
+}
+
+.nav-link:before {
+  display:block;
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:0;
+  height:3px;
+  background: rgba($light,0.75);
+  // background:$theme-colors'primary';
+  transition:width 1.5s ease;
+}
+
+.nav-link:hover:before {
+  width:100%;
+}
+
+.nav-button {
+  position:relative;
+  opacity: 50%;
+  transition:opacity 0.5s ease;
+}
+
+.nav-button:hover {
+  opacity: 100%;
+}
+
+.nav-button:before {
+  display:block;
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:100%;
+  width:0%;
+  height:3px;
+  background: rgba($blueAccent,0.25);
+  // background:$theme-colors'primary';
+  transition:width 2s ease, left 2s ease;
+}
+
+.nav-button:hover:before {
+  width:100%;
+  left:0;
+}
+
+.nav-button path.draw-icon {
+  stroke-dasharray: 4000px;
+  stroke-dashoffset: 0;
+  // fill: none;
+  fill: rgba($light,0.75);
+  fill-opacity: 100%;
+  stroke: rgba($light,1);
+  stroke-width: 10;  
+}
+
+.nav-button:hover path.draw-icon {
+  animation: draw 2s ease-in-out 0s 1 ;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 0;
+    fill-opacity: 100%;
+  }
+  15% {
+    stroke-dashoffset: 4000px;
+    fill-opacity: 2%;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity: 100%;
+  }
+}
+
+.info-subpanel {
+  position:relative;
+  transform: scale(0.98);
+  transition:  transform 1s ease-out 0s, background-color 1s ease-out 1s;
+  transition-delay: 0s;
+  background-color: rgba($blue,0);
+
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 2px transparent;
+
+  z-index: 1;
+
+  &:before,
+  &:after {
+    border-radius: 4px;
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1000; /* Bootstrap z-index scale for elements below content */
+    pointer-events: none;
+    border: 4px solid transparent;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  &:not(.out-view):hover,
+  &.in-view {
+    background-color: rgba($blueAccent,0.1);
+    transition-delay: 1s;
+    transform: scale(1);
+    transition:  transform 0.5s ease-out 0s, background-color 0.5s ease-out 0s;
+  }
+
+  &:not(.out-view):hover:before,
+  &:not(.out-view):hover:after,
+  &.in-view::before,
+  &.in-view::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:not(.out-view):hover:before,
+  &.in-view:before {
+    border-top-color: rgba($blueAccent,0.3);
+    border-right-color: rgba($blueAccent,0.3);
+    transition:
+      border-color 0s ease-out 0s,
+      width 0.5s ease-out, // Width expands first
+      height 0.5s ease-out 0.5s; // And then height
+  }
+
+  &:not(.out-view):hover:after, 
+  &.in-view:after {
+    border-bottom-color: rgba($blueAccent,0.3); // Make borders visible
+    border-left-color: rgba($blueAccent,0.3);
+    transition:
+      border-color 0s ease-out 0s,
+      height 0.5s ease-out,
+      width 0.5s ease-out 0.5s;
+  }
+
+  & * {
+    position: relative;
+    z-index: 1050;
+  }
+}
+
+.info-panel {
+  position:relative;
+  transform: scale(0.97);
+  transition:  transform 0.5s ease-out 0s, background-color 1s ease-out 1s;
+  transition-delay: 0s;
+  background-color: rgba($blue,0);
+
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 2px transparent;
+
+  z-index: 1;
+
+  &:before,
+  &:after {
+    border-radius: 4px;
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1000; /* Bootstrap z-index scale for elements below content */
+    pointer-events: none;
+    border: 4px solid transparent;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  &:not(.out-view):hover,
+  &.in-view {
+    background-color: rgba($blue,0.1);
+    transition-delay: 1s;
+    transform: scale(1);
+    transition:  transform 0.5s ease-out 0s, background-color 0.5s ease-out 0s;
+  }
+
+  &:not(.out-view):hover:before,
+  &:not(.out-view):hover:after,
+  &.in-view::before,
+  &.in-view::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:not(.out-view):hover:before,
+  &.in-view:before {
+    border-top-color: rgba($blue,0.5);
+    border-right-color: rgba($blue,0.5);
+    transition:
+      border-color 0s ease-out 0s,
+      width 0.25s ease-out, // Width expands first
+      height 0.25s ease-out 0.25s; // And then height
+  }
+
+  &:not(.out-view):hover:after, 
+  &.in-view:after {
+    border-bottom-color: rgba($blue,0.5); // Make borders visible
+    border-left-color: rgba($blue,0.5);
+    transition:
+      border-color 0s ease-out 0s,
+      height 0.25s ease-out,
+      width 0.25s ease-out 0.25s;
+  }
+
+  & * {
+    position: relative;
+    z-index: 1050;
+  }
+}

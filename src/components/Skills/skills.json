@@ -1,0 +1,102 @@
+[
+    {
+      "title": "Getting Started with Python",
+      "date": "1st January",
+      "post": "Python is one of the most popular programming languages today. In this post, I'll walk you through the basics of Python and how to write your first script."
+    },
+    {
+      "title": "Understanding Big O Notation",
+      "date": "10th January",
+      "post": "Big O notation is essential for analyzing the efficiency of algorithms. This post explains how to calculate time and space complexity for common algorithms."
+    },
+    {
+      "title": "Intro to Data Structures",
+      "date": "18th January",
+      "post": "Data structures are fundamental for writing efficient code. I'll cover arrays, linked lists, and more in this post."
+    },
+    {
+      "title": "Exploring Recursion in Algorithms",
+      "date": "25th January",
+      "post": "Recursion is a powerful concept in computer science, but it can be tricky to master. In this post, I'll break down how recursion works with some examples."
+    },
+    {
+      "title": "First Steps with Git and Version Control",
+      "date": "5th February",
+      "post": "Version control is crucial for developers. Learn how to use Git for managing your code projects effectively."
+    },
+    {
+      "title": "How to Ace Technical Interviews",
+      "date": "12th February",
+      "post": "Technical interviews can be daunting. Here are some tips and tricks to help you prepare for and succeed in your next interview."
+    },
+    {
+      "title": "Demystifying Machine Learning",
+      "date": "20th February",
+      "post": "Machine learning is one of the hottest fields in tech. I'll introduce the basics of machine learning and common algorithms like decision trees and neural networks."
+    },
+    {
+      "title": "Deep Dive into Object-Oriented Programming",
+      "date": "1st March",
+      "post": "Object-oriented programming (OOP) is a key concept in software development. I'll explain the principles of OOP using real-world examples."
+    },
+    {
+      "title": "Concurrency and Multithreading in Java",
+      "date": "8th March",
+      "post": "In this post, I'll show how to manage multiple threads in Java and why concurrency is important for optimizing performance."
+    },
+    {
+      "title": "Introduction to Functional Programming",
+      "date": "15th March",
+      "post": "Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions. Learn the basics and how it differs from imperative programming."
+    },
+    {
+      "title": "Building a Simple Web App with React",
+      "date": "22nd March",
+      "post": "React is a popular JavaScript library for building user interfaces. In this post, I'll guide you through creating a basic web app using React."
+    },
+    {
+      "title": "Exploring Sorting Algorithms",
+      "date": "29th March",
+      "post": "Sorting algorithms are essential for organizing data. I'll compare popular sorting algorithms like QuickSort, MergeSort, and BubbleSort."
+    },
+    {
+      "title": "Understanding APIs and How to Use Them",
+      "date": "5th April",
+      "post": "APIs allow different systems to communicate with each other. In this post, I explain how to integrate third-party APIs into your applications."
+    },
+    {
+      "title": "Getting Started with Docker",
+      "date": "12th April",
+      "post": "Docker is a platform that allows developers to automate the deployment of applications. I'll introduce Docker and explain how to containerize your applications."
+    },
+    {
+      "title": "Mastering SQL for Database Management",
+      "date": "20th April",
+      "post": "SQL is the language used to communicate with databases. In this post, I'll go over how to write efficient SQL queries and manage relational databases."
+    },
+    {
+      "title": "Understanding Blockchain Technology",
+      "date": "27th April",
+      "post": "Blockchain is a distributed ledger technology that's revolutionizing industries. I'll explain the fundamentals of blockchain and its potential applications."
+    },
+    {
+      "title": "How to Contribute to Open Source Projects",
+      "date": "5th May",
+      "post": "Open-source projects are a great way to improve your coding skills and contribute to the community. I'll show you how to get started with contributing to open-source projects."
+    },
+    {
+      "title": "Building Your Personal Portfolio Website",
+      "date": "15th May",
+      "post": "A personal portfolio website is crucial for showcasing your projects and skills. In this post, I'll guide you through creating your own portfolio site."
+    },
+    {
+      "title": "Understanding Cloud Computing with AWS",
+      "date": "25th May",
+      "post": "Cloud computing has changed the way we develop and deploy applications. Learn the basics of AWS and how to deploy your applications in the cloud."
+    },
+    {
+      "title": "Exploring the World of Cybersecurity",
+      "date": "1st June",
+      "post": "Cybersecurity is a critical field in today's tech world. I'll introduce you to the basics of cybersecurity and how to protect your systems from common threats."
+    }
+  ]

@@ -1,0 +1,19 @@
+@use "sass:map";
+
+// @import './custom';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+
+$font-default: Montserrat, sans-serif;
+
+$color-bg: #17b4b1;
+$color-bg-a25: rgba(249, 247, 241, 0.25);
+$color-bg-a85: rgba(249, 247, 241, 0.85);
+$color-accent-1: #084746;
+$color-accent-1-a90: rgba(14, 124, 123, 0.9);
+
+$blue: #084948;
+$blueAccent: #12A5A3;
+$light: rgb(249, 247, 241);

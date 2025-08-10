@@ -1,0 +1,45 @@
+.profile-creation {
+  max-width: 600px;
+  margin: auto;
+
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .photo-previews img {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .hobbies-preview {
+    .badge {
+      font-size: 0.9rem;
+      padding: 0.5em 0.8em;
+      user-select: none;
+
+      i.hobby-icon {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+/* Style react-select invalid state */
+.is-invalid {
+  .css-1okebmr-indicatorSeparator,
+  .css-1okebmr-indicatorContainer {
+    border-color: #dc3545 !important;
+  }
+  .css-1uccc91-singleValue,
+  .css-14el2xx-placeholder {
+    color: #dc3545 !important;
+  }
+  .css-1pahdxg-control {
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25) !important;
+  }
+}

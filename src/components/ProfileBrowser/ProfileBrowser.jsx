@@ -2,12 +2,21 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ProfileBrowser.scss';
 import profileList from './ProfileList.json'; // adjust path as needed
+import { useNavigate } from 'react-router-dom';
+
 
 export default function ProfileBrowser() {
   const [profiles, setProfiles] = useState([]);
   const [current, setCurrent] = useState(0);
   const [likes, setLikes] = useState([]);
 
+  const navigate = useNavigate();
+
+  // In your button onClick:
+  const handlePlanDateClick = () => {
+    navigate('/DatePlanner');
+  };
+  
   useEffect(() => {
     setProfiles(profileList);
   }, []);
@@ -70,7 +79,7 @@ export default function ProfileBrowser() {
           ))}
         </div>
 
-        {/* Profile Header */}
+
         <div className="profile-header text-center mb-3">
           <h2 className="fw-bold">
             {currentProfile.name}, {currentProfile.age}
@@ -102,24 +111,27 @@ export default function ProfileBrowser() {
         </div>
 
         {/* Action Buttons */}
-<div className="d-flex justify-content-center align-items-center gap-3 mt-4 action-buttons">
-  <button
-    className="btn btn-success btn-plan-date flex-grow-1"
-    onClick={handleLike}
-    aria-label="Plan a Date"
-  >
+        <div className="d-flex justify-content-center align-items-center gap-3 mt-4 action-buttons">
+        <button
+        className="btn btn-success btn-plan-date flex-grow-1"
+      onClick={handlePlanDateClick}
+      aria-label="Plan a Date"
+    >
     Plan a Date
-  </button>
-<button
-  className="btn btn-danger btn-circle"
-  onClick={handlePass}
-  aria-label="Pass"
->
-  &times;  {/* This is the × character */}
-</button>
+    </button>
+    <button
+    className="btn btn-danger btn-circle"
+    onClick={handlePass}
+    aria-label="Pass"
+    >
+    <span className="emoji-white">❌</span>
+    </button>
 
-</div>
-        </div>
+
+                </div>``
+            </div>
         </div>
     );
+
+  
     }

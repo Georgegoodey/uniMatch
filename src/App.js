@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './components/Login/Login';
 import Register from './components/Login/Register';
+import DatePlanner from './components/PlanADate/DatePlanner';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
+              <Route path="/DatePlanner" element={<DatePlanner />} />
             </Routes>
           </BrowserRouter>
         </main>

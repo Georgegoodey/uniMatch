@@ -104,23 +104,35 @@
   }
 
   .btn-circle {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    font-size: 1.5rem;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 5px 12px rgba(220, 53, 69, 0.5);
-    background-color: #dc3545;    // Bootstrap danger red
-    color: white;                 // white icon
-    transition: background-color 0.3s ease;
-    border: none;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 
-        &:hover, &:focus {
-            background-color: #c82333cc; // slightly darker red
-            color: white;
-          }
-      }
+  background-color: #dc3545; /* Bootstrap red */
+  border: none;
+  color: white;
+
+  .emoji-white {
+    filter: brightness(0) invert(1); /* keep emoji white */
+    display: inline-block;
+    line-height: 1;
+  }
+
+  transition: background-color 0.3s ease;
+
+  &:hover,
+  &:focus {
+    background-color: #c82333; /* darker red on hover */
+    color: white;
+  }
+}
+
+
+
     }
